@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Bookmark Exporter",
+  "description": "Chrome Extension for Exporting Twitter Bookmarks",
+  "version": "1.0.0",
+  "content_scripts": [{
+    "run_at": "document_end",
+    "matches": ["https://x.com/i/bookmarks/*"],
+    "all_frames": false,
+    "js": ["content.js"]
+  }]
+}
