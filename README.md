@@ -8,6 +8,7 @@ A collection of JavaScript tools.
 
 - [bookmark-exporter](bookmark-exporter) - A Chrome extension to export post URLs in X (Twitter) bookmarks as a CSV file.
 - [tweet-capture](tweet-capture) - A Node.js script that reads post URLs from a CSV file and captures screenshots.
+- [rewards-scraper](rewards-scraper) - A Chrome extension to collect redemption amounts and required points from Microsoft Rewards.
 
 ## License
 
