@@ -5,7 +5,8 @@ const { chromium } = require('playwright');
   const csv = fs.readFileSync('bookmarks.csv', 'utf-8')
     .split('\n')
     .map(l => l.trim())
-    .filter(l => l);
+    .filter(l => l)
+    .slice(1);
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
