@@ -1,5 +1,5 @@
-const fs = require('fs');
-const { chromium } = require('playwright');
+import fs from 'fs';
+import { chromium } from 'playwright';
 
 (async () => {
   const csv = fs.readFileSync('bookmarks.csv', 'utf-8')
